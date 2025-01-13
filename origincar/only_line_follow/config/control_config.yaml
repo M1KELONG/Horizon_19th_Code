@@ -1,0 +1,133 @@
+/control_node:
+  ros__parameters:
+
+    pub_control_topic: /cmd_vel
+    # 停车计数值
+    END_CNT_threshold: 10
+
+    # 巡线：
+    # 巡线角度
+    follow_angular_ratio: -6.0
+    # 巡线速度
+    follow_linear_speed: 0
+
+    # 避障：
+    # 障碍物检测阈值
+    bottom_threshold: 400
+    # temp值限制
+    temp_lim: 20
+
+
+
+    # =============
+    # ==任务一参数==
+    # =============
+    # 先左转：
+    # 第一段：
+    # 角度比例：
+    avoid_angular_ratio1_l_I_: 20.0
+    # 线速度：
+    avoid_linear_speed1_l_I_: 0.3
+    # 时间：
+    time1_l_I_: 200
+
+    # 第二段：
+    # 角度比例：
+    avoid_angular_ratio2_l_I_: 0.0
+    # 线速度：
+    avoid_linear_speed2_l_I_: 0.3
+    # 时间：
+    time2_l_I_: 1000
+
+    # 第三段：
+    # 角度比例：
+    avoid_angular_ratio3_l_I_: 20.0
+    # 线速度：
+    avoid_linear_speed3_l_I_: 0.3
+    # 时间：
+    time3_l_I_: 500
+
+
+    # 先右转：
+    # 第一段：
+    # 角度比例：
+    avoid_angular_ratio1_r_I_: 20.0
+    # 线速度：
+    avoid_linear_speed1_r_I_: 0.3
+    # 时间：
+    time1_r_I_: 1000
+
+    # 第二段：
+    # 角度比例：
+    avoid_angular_ratio2_r_I_: 0.0
+    # 线速度：
+    avoid_linear_speed2_r_I_: 0.3
+    # 时间：
+    time2_r_I_: 500
+
+    # 第三段：
+    # 角度比例：
+    avoid_angular_ratio3_r_I_: 20.0
+    # 线速度：
+    avoid_linear_speed3_r_I_: 0.3
+    # 时间：
+    time3_r_I_: 500
+
+
+
+
+
+
+    # =============
+    # ==任务三参数==
+    # =============
+    # 先左转：
+    # 第一段：
+    # 角度比例：
+    avoid_angular_ratio1_l_III_: 20.0
+    # 线速度：
+    avoid_linear_speed1_l_III_: 0.3
+    # 时间：
+    time1_l_III_: 200
+
+    # 第二段：
+    # 角度比例：
+    avoid_angular_ratio2_l_III_: 0.0
+    # 线速度：
+    avoid_linear_speed2_l_III_: 0.3
+    # 时间：
+    time2_l_III_: 500
+
+    # 第三段：
+    # 角度比例：
+    avoid_angular_ratio3_l_III_: 20.0
+    # 线速度：
+    avoid_linear_speed3_l_III_: 0.3
+    # 时间：
+    time3_l_III_: 500
+
+
+    # 先右转：
+    # 第一段：
+    # 角度比例：
+    avoid_angular_ratio1_r_III_: 20.0
+    # 线速度：
+    avoid_linear_speed1_r_III_: 0.3
+    # 时间：
+    time1_r_III_: 200
+
+    # 第二段：
+    # 角度比例：
+    avoid_angular_ratio2_r_III_: 0.0
+    # 线速度：
+    avoid_linear_speed2_r_III_: 0.3
+    # 时间：
+    time2_r_III_: 500
+
+    # 第三段：
+    # 角度比例：
+    avoid_angular_ratio3_r_III_: 20.0
+    # 线速度：
+    avoid_linear_speed3_r_III_: 0.3
+    # 时间：
+    time3_r_III_: 500

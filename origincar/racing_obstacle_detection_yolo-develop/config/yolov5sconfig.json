@@ -1,0 +1,5 @@
+{
+	"model_file": "/root/dev_ws/src/yolotry/yolo_detection.bin",
+	"class_num": 1,
+	"cls_names_list": "config/obstacles.list"
+}
